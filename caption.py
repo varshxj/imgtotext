@@ -37,8 +37,8 @@ st.title("img to text")
 st.write("Hi,There")
 
 # Define API details
-API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-base"
-headers = {"Authorization": "Bearer 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"}
+API_URL = ""
+headers = {"Authorization": ""}
 
 # Function to query the Hugging Face model
 def query(image_bytes):
